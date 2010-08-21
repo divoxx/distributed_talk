@@ -1,0 +1,5 @@
+require "rake"
+require "resque/tasks"
+require "mail_sender"
+
+task "resque:setup"

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Mailer</title>
+</head>
+<body>
+  <form method="post">
+    <div class="field">
+      <label for="email_recipient">Recipient</label><br/>
+      <input type="text" id="email_recipient" name="email[recipient]">
+    </div>
+    
+    <div class="field">
+      <label for="email_subject">Subject</label><br/>
+      <input type="text" id="email_subject" name="email[subject]">
+    </div>
+    
+    <div class="field">
+      <label for="email_body">Body</label><br/>
+      <textarea id="email_body" name="email[body]"></textarea>
+    </div>
+    
+    <input type="submit" value="Send">
+  </form>
+</body>
+</html>
