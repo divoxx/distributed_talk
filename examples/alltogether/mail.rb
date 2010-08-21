@@ -2,7 +2,9 @@ require "service_locator"
 
 class Mail
   def initialize(opts = {})
+    # Creates a hash with indifferent access (Symbol or String)
     opts = Hash.new {|hash,key| hash[key.to_s] if Symbol === key }.merge(opts)
+    
     @recipient = opts[:recipient]
     @subject   = opts[:subject]
     @body      = opts[:body]
