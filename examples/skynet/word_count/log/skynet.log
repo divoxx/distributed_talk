@@ -1,0 +1,42 @@
+# Logfile created on Sat Aug 21 10:13:47 -0300 2010 by logger.rb/22285
+[LOG] #21496 2010-08-21 10:13:57.868622 <MANAGER> STARTING THE MANAGER!!!!!!!!!!! port: 40000 
+[LOG] #21496 2010-08-21 10:13:57.868736 <MANAGER> Skynet Stopped 
+[LOG] #21502 2010-08-21 10:13:58.922266 <WORKER-21502> STARTING WORKER @ VER:0 type:task QUEUE_ID:0 
+[LOG] #21503 2010-08-21 10:13:58.946831 <WORKER-21503> STARTING WORKER @ VER:0 type:task QUEUE_ID:0 
+[LOG] #21505 2010-08-21 10:13:58.965136 <WORKER-21505> STARTING WORKER @ VER:0 type:any QUEUE_ID:0 
+[LOG] #21504 2010-08-21 10:13:58.972238 <WORKER-21504> STARTING WORKER @ VER:0 type:any QUEUE_ID:0 
+[LOG] #21496 2010-08-21 10:14:02.16226 <MANAGER> FINISHED STARTING ALL 4 WORKERS 
+[LOG] #21496 2010-08-21 10:19:27.39541 <MANAGER> Manager Exiting! 
+[LOG] #21544 2010-08-21 10:19:29.170532 <MANAGER> STARTING THE MANAGER!!!!!!!!!!! port: 40000 
+[LOG] #21544 2010-08-21 10:19:29.170644 <MANAGER> Skynet Stopped 
+[LOG] #21546 2010-08-21 10:19:30.189994 <WORKER-21546> STARTING WORKER @ VER:0 type:task QUEUE_ID:0 
+[LOG] #21547 2010-08-21 10:19:30.217353 <WORKER-21547> STARTING WORKER @ VER:0 type:task QUEUE_ID:0 
+[LOG] #21548 2010-08-21 10:19:30.277208 <WORKER-21548> STARTING WORKER @ VER:0 type:any QUEUE_ID:0 
+[LOG] #21549 2010-08-21 10:19:30.296829 <WORKER-21549> STARTING WORKER @ VER:0 type:any QUEUE_ID:0 
+[LOG] #21544 2010-08-21 10:19:33.427972 <MANAGER> FINISHED STARTING ALL 4 WORKERS 
+[ERROR] #21549 2010-08-21 10:20:05.976956 <WORKER-21549> Worker could not connect call worker_notify on manager #<SystemExit: exit> args: [[{:worker_id=>13219699103426072577, :task_id=>0, :version=>0, :required_libs=>["/Users/divoxx/Development/Projects/OpenSource/DistribAsyncRuby/examples/skynet/word_count/word_counter.rb"], :hostname=>"wizard.local", :process_id=>nil, :config_file=>"/Users/divoxx/Development/Projects/OpenSource/DistribAsyncRuby/examples/skynet/word_count/config/skynet_config.rb", :job_id=>0, :queue_id=>0, :map_or_reduce=>nil, :name=>"waiting for any", :started_at=>1282396805, :worker_type=>"any", :script_path=>"/opt/local/lib/ruby/gems/1.8/gems/skynet-0.9.3/bin/skynet", :processed=>1, :tasktype=>"any"}]]
+[LOG] #21544 2010-08-21 10:20:08.430753 <MANAGER> Manager Exiting! 
+[LOG] #21554 2010-08-21 10:20:10.202520 <MANAGER> STARTING THE MANAGER!!!!!!!!!!! port: 40000 
+[LOG] #21554 2010-08-21 10:20:10.202630 <MANAGER> Skynet Stopped 
+[LOG] #21557 2010-08-21 10:20:11.219139 <WORKER-21557> STARTING WORKER @ VER:0 type:task QUEUE_ID:0 
+[LOG] #21556 2010-08-21 10:20:11.224175 <WORKER-21556> STARTING WORKER @ VER:0 type:task QUEUE_ID:0 
+[LOG] #21558 2010-08-21 10:20:11.267081 <WORKER-21558> STARTING WORKER @ VER:0 type:any QUEUE_ID:0 
+[LOG] #21559 2010-08-21 10:20:11.281942 <WORKER-21559> STARTING WORKER @ VER:0 type:any QUEUE_ID:0 
+[LOG] #21554 2010-08-21 10:20:14.353934 <MANAGER> FINISHED STARTING ALL 4 WORKERS 
+[ERROR] #21559 2010-08-21 10:20:30.969473 <WORKER-21559> Worker could not connect call worker_notify on manager #<SystemExit: exit> args: [[{:worker_id=>13219704738423205889, :task_id=>0, :version=>0, :required_libs=>["/Users/divoxx/Development/Projects/OpenSource/DistribAsyncRuby/examples/skynet/word_count/word_counter.rb"], :hostname=>"wizard.local", :process_id=>nil, :config_file=>"/Users/divoxx/Development/Projects/OpenSource/DistribAsyncRuby/examples/skynet/word_count/config/skynet_config.rb", :job_id=>0, :queue_id=>0, :map_or_reduce=>nil, :name=>"waiting for any", :started_at=>1282396830, :worker_type=>"any", :script_path=>"/opt/local/lib/ruby/gems/1.8/gems/skynet-0.9.3/bin/skynet", :processed=>0, :tasktype=>"any"}]]
+[LOG] #21554 2010-08-21 10:20:34.355618 <MANAGER> Manager Exiting! 
+[LOG] #21563 2010-08-21 10:20:44.844030 <MANAGER> STARTING THE MANAGER!!!!!!!!!!! port: 40000 
+[LOG] #21563 2010-08-21 10:20:44.844160 <MANAGER> Skynet Stopped 
+[LOG] #21564 2010-08-21 10:20:47.90537 <WORKER-21564> STARTING WORKER @ VER:0 type:master QUEUE_ID:0 
+[LOG] #21565 2010-08-21 10:20:47.277764 <WORKER-21565> STARTING WORKER @ VER:0 type:master QUEUE_ID:0 
+[LOG] #21566 2010-08-21 10:20:47.374315 <WORKER-21566> STARTING WORKER @ VER:0 type:task QUEUE_ID:0 
+[LOG] #21567 2010-08-21 10:20:47.420604 <WORKER-21567> STARTING WORKER @ VER:0 type:task QUEUE_ID:0 
+[LOG] #21568 2010-08-21 10:20:47.534351 <WORKER-21568> STARTING WORKER @ VER:0 type:task QUEUE_ID:0 
+[LOG] #21569 2010-08-21 10:20:47.610216 <WORKER-21569> STARTING WORKER @ VER:0 type:task QUEUE_ID:0 
+[LOG] #21571 2010-08-21 10:20:47.625797 <WORKER-21571> STARTING WORKER @ VER:0 type:task QUEUE_ID:0 
+[LOG] #21572 2010-08-21 10:20:47.653985 <WORKER-21572> STARTING WORKER @ VER:0 type:task QUEUE_ID:0 
+[LOG] #21570 2010-08-21 10:20:47.661453 <WORKER-21570> STARTING WORKER @ VER:0 type:task QUEUE_ID:0 
+[LOG] #21573 2010-08-21 10:20:47.666256 <WORKER-21573> STARTING WORKER @ VER:0 type:any QUEUE_ID:0 
+[LOG] #21563 2010-08-21 10:20:55.383284 <MANAGER> FINISHED STARTING ALL 10 WORKERS 
+[ERROR] #21573 2010-08-21 10:21:40.682628 <WORKER-21573> Worker could not connect call worker_notify on manager #<SystemExit: exit> args: [[{:worker_id=>13219709737765195777, :task_id=>0, :version=>0, :required_libs=>["/Users/divoxx/Development/Projects/OpenSource/DistribAsyncRuby/examples/skynet/word_count/word_counter.rb"], :hostname=>"wizard.local", :process_id=>nil, :config_file=>"/Users/divoxx/Development/Projects/OpenSource/DistribAsyncRuby/examples/skynet/word_count/config/skynet_config.rb", :job_id=>0, :queue_id=>0, :map_or_reduce=>nil, :name=>"waiting for any", :started_at=>1282396900, :worker_type=>"any", :script_path=>"/opt/local/lib/ruby/gems/1.8/gems/skynet-0.9.3/bin/skynet", :processed=>1, :tasktype=>"any"}]]
+[LOG] #21563 2010-08-21 10:21:45.387243 <MANAGER> Manager Exiting! 

@@ -1,0 +1,6 @@
+require "rake"
+require "resque/tasks"
+
+task "resque:setup" do
+  require "worker"
+end
